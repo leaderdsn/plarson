@@ -45,8 +45,6 @@ function watchFiles() {
     watch('./src/*.html', html);
     watch('./src/images/*', img);
     watch('./src/sass/**/*.sass', sass);
-    watch('./src/fonts/**/*.ttf', fonts);
-    watch('./src/js/*.js', js);
 }
 
 /** BROWSER-SYNC */
