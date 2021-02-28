@@ -1,0 +1,41 @@
+$borderColor: #bfbfc0
+    
+.user-item
+    width: 100%
+    height: auto
+    list-style-type: none
+    border: 1px solid #bfbfc0
+    border-radius: 4px
+    box-sizing: border-box
+    padding: 5px
+    display: flex
+    margin: 2.5px 0 2.5px 0
+    background-color:#f8f8f8
+    scroll-snap-align: start
+    .logo-user
+        width: 50px
+        height: auto
+        box-sizing: border-box
+        background-image: url(../images/logo-user.jpg)
+        background-size: contain
+        background-repeat: no-repeat
+        border: 1px solid $borderColor
+        border-radius: 10px
+    .user-content
+        display: flex
+        flex-direction: column 
+        justify-content: space-between
+        align-items: flex-start
+        text-indent: 5px
+        height: 40px
+        width: 100%
+        box-sizing: border-box
+        .name
+            font-size: 0.9rem
+            display: flex
+        .status
+            font-size: 0.6rem
+            display: flex
+            span
+                font-weight: bold 
+                margin-right: 5px
