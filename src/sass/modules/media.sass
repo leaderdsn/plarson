@@ -1,0 +1,56 @@
+$max-width-xxs: 320px
+$max-width-xs: 480px
+
+@media screen and (max-width: $max-width-xs)
+    
+    .chat-panel
+        .message
+            min-width: 90px
+            .description
+                min-width: 90px
+                padding: 2px
+
+    .user-panel
+        min-width: 155px
+        .users-list
+            .user-item
+                .logo-user
+                    width: 35px
+                .user-content
+                    height: 30px
+                    .name
+                        font-size: 0.6rem
+                    .status
+                        font-size: 0.4rem
+    
+@media screen and (max-width: $max-width-xxs)
+
+    .wrapper
+        width: 250px
+        max-width: 250px
+
+
+    .user-panel
+        min-width: 75px
+        width: 75px
+        .users-list
+            .user-item
+                width: 45px
+                &:hover>.user-content
+                        display: block
+                        position: absolute
+                        width: 100px
+                        background-color: #f0d377
+                        border-radius: 4px
+                .logo-user
+                    height: 34px
+                .user-content
+                    height: 25px
+                    width: 100%
+                    display: none
+                    z-index: 1000
+                    .name
+                        font-size: 0.6rem
+                        height: 15px
+                    .status
+                        font-size: 0.4rem
